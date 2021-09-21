@@ -19,8 +19,8 @@ package generic
 import (
 	"context"
 
+	"github.com/loheagn/ksclient/client"
 	"k8s.io/apimachinery/pkg/runtime"
-	"kubesphere.io/client-go/client"
 )
 
 // client is a client.Client that reads and writes directly from/to an API server.  It lazily initializes

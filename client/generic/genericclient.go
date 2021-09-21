@@ -20,12 +20,12 @@ import (
 	"context"
 	"fmt"
 
+	"github.com/loheagn/ksclient/client"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/kubernetes/scheme"
 	"k8s.io/client-go/rest"
-	"kubesphere.io/client-go/client"
 	"sigs.k8s.io/controller-runtime/pkg/client/apiutil"
 )
 

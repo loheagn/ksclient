@@ -17,8 +17,8 @@ limitations under the License.
 package restclient
 
 import (
+	iamv1alpha2 "github.com/loheagn/ksclient/restclient/versioned/iam/v1alpha2"
 	rest "k8s.io/client-go/rest"
-	iamv1alpha2 "kubesphere.io/client-go/restclient/versioned/iam/v1alpha2"
 )
 
 // NewForConfig returns a new Client using the provided config and Options.

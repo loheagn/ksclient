@@ -8,8 +8,8 @@ The KubeSphere client-go Project is a rest-client of go libraries for communicat
 ```golang
 import (
     "k8s.io/client-go/rest"
-	"kubesphere.io/client-go/client"
-	"kubesphere.io/client-go/client/generic"
+	"github.com/loheagn/ksclient/client"
+	"github.com/loheagn/ksclient/client/generic"
 )
 ```
 2. Create a generic client instance:
