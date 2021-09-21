@@ -2,7 +2,7 @@
 // Run hack/pin-dependency.sh to change pinned dependency versions.
 // Run hack/update-vendor.sh to update go.mod files and the vendor directory.
 
-module kubesphere.io/client-go
+module github.com/loheagn/ksclient
 
 go 1.13
 
